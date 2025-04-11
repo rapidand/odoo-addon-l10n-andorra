@@ -693,4 +693,110 @@
             }),
         ]"/>
     </record>
+
+    <data>
+        <!-- Tax Groups -->
+        <record id="tax_group_isi" model="account.tax.group">
+            <field name="name">ISI</field>
+            <field name="sequence">1</field>
+        </record>
+
+        <!-- Tax Templates -->
+        <record id="account_tax_template_isi_0" model="account.tax.template">
+            <field name="name">ISI 0%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount">0</field>
+            <field name="amount_type">percent</field>
+            <field name="tax_group_id" ref="tax_group_isi"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="price_include">False</field>
+            <field name="include_analytic_account">True</field>
+            <field name="analytic">True</field>
+        </record>
+
+        <record id="account_tax_template_isi_4_5" model="account.tax.template">
+            <field name="name">ISI 4.5%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount">4.5</field>
+            <field name="amount_type">percent</field>
+            <field name="tax_group_id" ref="tax_group_isi"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="price_include">False</field>
+            <field name="include_analytic_account">True</field>
+            <field name="analytic">True</field>
+        </record>
+
+        <record id="account_tax_template_isi_9_5" model="account.tax.template">
+            <field name="name">ISI 9.5%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount">9.5</field>
+            <field name="amount_type">percent</field>
+            <field name="tax_group_id" ref="tax_group_isi"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="price_include">False</field>
+            <field name="include_analytic_account">True</field>
+            <field name="analytic">True</field>
+        </record>
+
+        <!-- Tax Repartition Lines -->
+        <record id="account_tax_repartition_line_isi_0_base" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">base</field>
+            <field name="tax_id" ref="account_tax_template_isi_0"/>
+        </record>
+
+        <record id="account_tax_repartition_line_isi_0_tax" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">tax</field>
+            <field name="tax_id" ref="account_tax_template_isi_0"/>
+        </record>
+
+        <record id="account_tax_repartition_line_isi_4_5_base" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">base</field>
+            <field name="tax_id" ref="account_tax_template_isi_4_5"/>
+        </record>
+
+        <record id="account_tax_repartition_line_isi_4_5_tax" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">tax</field>
+            <field name="tax_id" ref="account_tax_template_isi_4_5"/>
+        </record>
+
+        <record id="account_tax_repartition_line_isi_9_5_base" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">base</field>
+            <field name="tax_id" ref="account_tax_template_isi_9_5"/>
+        </record>
+
+        <record id="account_tax_repartition_line_isi_9_5_tax" model="account.tax.repartition.line.template">
+            <field name="factor_percent">100</field>
+            <field name="repartition_type">tax</field>
+            <field name="tax_id" ref="account_tax_template_isi_9_5"/>
+        </record>
+
+        <!-- Fiscal Positions -->
+        <record id="fiscal_position_template_isi" model="account.fiscal.position.template">
+            <field name="name">ISI</field>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+        </record>
+
+        <record id="fiscal_position_template_isi_0" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_isi"/>
+            <field name="tax_src_id" ref="account_tax_template_isi_0"/>
+            <field name="tax_dest_id" ref="account_tax_template_isi_0"/>
+        </record>
+
+        <record id="fiscal_position_template_isi_4_5" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_isi"/>
+            <field name="tax_src_id" ref="account_tax_template_isi_4_5"/>
+            <field name="tax_dest_id" ref="account_tax_template_isi_4_5"/>
+        </record>
+
+        <record id="fiscal_position_template_isi_9_5" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_isi"/>
+            <field name="tax_src_id" ref="account_tax_template_isi_9_5"/>
+            <field name="tax_dest_id" ref="account_tax_template_isi_9_5"/>
+        </record>
+    </data>
 </odoo>

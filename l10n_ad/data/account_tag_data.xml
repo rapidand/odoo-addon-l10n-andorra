@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tax Report Tags -->
+        <record id="account_tag_operating" model="account.account.tag">
+            <field name="name">Operating</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+
+        <record id="account_tag_financing" model="account.account.tag">
+            <field name="name">Financing</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+
+        <record id="account_tag_investing" model="account.account.tag">
+            <field name="name">Investing</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+
+        <!-- VAT Tags -->
+        <record id="account_tag_vat" model="account.account.tag">
+            <field name="name">VAT</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+
+        <record id="account_tag_vat_in" model="account.account.tag">
+            <field name="name">VAT In</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+
+        <record id="account_tag_vat_out" model="account.account.tag">
+            <field name="name">VAT Out</field>
+            <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.ad"/>
+        </record>
+    </data>
+</odoo> 

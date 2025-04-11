@@ -9,6 +9,22 @@
             <field name="bank_account_code_prefix">572</field>
             <field name="transfer_account_code_prefix">572999</field>
             <field name="country_id" ref="base.ad"/>
+            <!-- Default accounts -->
+            <field name="property_account_receivable_id" ref="account_common_4300"/>
+            <field name="property_account_payable_id" ref="account_common_4000"/>
+            <field name="property_account_expense_categ_id" ref="account_common_6000"/>
+            <field name="property_account_income_categ_id" ref="account_common_7000"/>
+            <!-- Stock accounts -->
+            <field name="property_stock_account_input_categ_id" ref="account_common_6000"/>
+            <field name="property_stock_account_output_categ_id" ref="account_common_7000"/>
+            <field name="property_stock_valuation_account_id" ref="account_common_3000"/>
+            <!-- New fields for Odoo 18.0 -->
+            <field name="property_tax_payable_account_id" ref="account_common_4750"/>
+            <field name="property_tax_receivable_account_id" ref="account_common_4700"/>
+            <field name="property_advance_tax_payment_account_id" ref="account_common_4700"/>
+            <field name="property_cash_basis_base_account_id" ref="account_common_4700"/>
+            <field name="default_cash_difference_income_account_id" ref="account_common_7780"/>
+            <field name="default_cash_difference_expense_account_id" ref="account_common_6780"/>
         </record>
 
         <record id="account_chart_template_full" model="account.chart.template">
@@ -19,6 +35,22 @@
             <field name="transfer_account_code_prefix">572999</field>
             <field name="parent_id" ref="account_chart_template_common"/>
             <field name="country_id" ref="base.ad"/>
+            <!-- Default accounts -->
+            <field name="property_account_receivable_id" ref="account_common_4300"/>
+            <field name="property_account_payable_id" ref="account_common_4000"/>
+            <field name="property_account_expense_categ_id" ref="account_common_6000"/>
+            <field name="property_account_income_categ_id" ref="account_common_7000"/>
+            <!-- Stock accounts -->
+            <field name="property_stock_account_input_categ_id" ref="account_common_6000"/>
+            <field name="property_stock_account_output_categ_id" ref="account_common_7000"/>
+            <field name="property_stock_valuation_account_id" ref="account_common_3000"/>
+            <!-- New fields for Odoo 18.0 -->
+            <field name="property_tax_payable_account_id" ref="account_common_4750"/>
+            <field name="property_tax_receivable_account_id" ref="account_common_4700"/>
+            <field name="property_advance_tax_payment_account_id" ref="account_common_4700"/>
+            <field name="property_cash_basis_base_account_id" ref="account_common_4700"/>
+            <field name="default_cash_difference_income_account_id" ref="account_common_7780"/>
+            <field name="default_cash_difference_expense_account_id" ref="account_common_6780"/>
         </record>
     </data>
 </odoo>

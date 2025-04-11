@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- IGI 4.5% -->
+        <record id="account_tax_template_igi_45" model="account.tax.template">
+            <field name="name">IGI 4,5%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">4.5</field>
+            <field name="tax_group_id" ref="tax_group_igi_45"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">1</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- IGI 2.5% -->
+        <record id="account_tax_template_igi_25" model="account.tax.template">
+            <field name="name">IGI 2,5%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">2.5</field>
+            <field name="tax_group_id" ref="tax_group_igi_25"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">2</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- IGI 1% -->
+        <record id="account_tax_template_igi_1" model="account.tax.template">
+            <field name="name">IGI 1%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">1.0</field>
+            <field name="tax_group_id" ref="tax_group_igi_1"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">3</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- IGI 0% -->
+        <record id="account_tax_template_igi_0" model="account.tax.template">
+            <field name="name">IGI 0%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">0.0</field>
+            <field name="tax_group_id" ref="tax_group_igi_0"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">4</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- IGI 9.5% -->
+        <record id="account_tax_template_igi_95" model="account.tax.template">
+            <field name="name">IGI 9,5%</field>
+            <field name="type_tax_use">sale</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">9.5</field>
+            <field name="tax_group_id" ref="tax_group_igi_95"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">5</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- Retencions 5% -->
+        <record id="account_tax_template_retencions_5" model="account.tax.template">
+            <field name="name">Retencions 5%</field>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">5.0</field>
+            <field name="tax_group_id" ref="tax_group_retencions_5"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">6</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+
+        <!-- Retencions 10% -->
+        <record id="account_tax_template_retencions_10" model="account.tax.template">
+            <field name="name">Retencions 10%</field>
+            <field name="type_tax_use">purchase</field>
+            <field name="amount_type">percent</field>
+            <field name="amount">10.0</field>
+            <field name="tax_group_id" ref="tax_group_retencions_10"/>
+            <field name="chart_template_id" ref="account_chart_template_common"/>
+            <field name="country_id" ref="base.ad"/>
+            <field name="sequence">7</field>
+            <field name="invoice_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+            <field name="refund_repartition_line_ids" eval="[(0,0,{'factor_percent':100,'repartition_type':'base'}), (0,0,{'factor_percent':100,'repartition_type':'tax'})]"/>
+        </record>
+    </data>
+</odoo> 

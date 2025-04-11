@@ -7,9 +7,9 @@
 
 {
     "name" : "Andorra - Accounting",
-    "version" : "0.1",
+    "version" : "18.0.1.0.0",
     "author" : "Batista10",
-    'category': 'Localization',
+    'category': 'Accounting/Localizations',
     "description": """
 Andorra Comptes Comptables 
 ==========================
@@ -29,9 +29,11 @@ Andorra Comptes Comptables
         'data/account.account.template-full.csv',
         'data/account_chart_template_account_account_link.xml',
         'data/account_group_data.xml',
+        'data/account_tag_data.xml',
         'data/account_tax_group_data.xml',
+        'data/account_tax_template_data.xml',
         'data/account_tax_data.xml',
-        'data/account_fiscal_position_template_data.xml',
+        'data/account.fiscal.position.template-ad.csv',
         'data/account_chart_template_configure_data.xml',
     ],
     'license': 'AGPL-3',

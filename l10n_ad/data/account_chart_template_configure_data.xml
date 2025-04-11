@@ -3,6 +3,10 @@
     <data noupdate="1">
         <function model="account.chart.template" name="try_loading">
             <value eval="[ref('l10n_ad.account_chart_template_full')]"/>
+            <value>ad</value>
+            <value model="res.company" eval="obj().env.company"/>
+            <value name="install_demo" eval="False"/>
+            <value name="force_install" eval="True"/>
         </function>
     </data>
 </odoo>

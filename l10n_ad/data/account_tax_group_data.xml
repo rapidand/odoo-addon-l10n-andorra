@@ -4,24 +4,38 @@
         <!-- Account Tax Group -->
         <record id="tax_group_igi_45" model="account.tax.group">
             <field name="name">IGI 4,5%</field>
+            <field name="sequence">1</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_igi_25" model="account.tax.group">
             <field name="name">IGI 2,5%</field>
+            <field name="sequence">2</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_igi_1" model="account.tax.group">
             <field name="name">IGI 1%</field>
+            <field name="sequence">3</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_igi_0" model="account.tax.group">
             <field name="name">IGI 0%</field>
+            <field name="sequence">4</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_igi_95" model="account.tax.group">
             <field name="name">IGI 9,5%</field>
+            <field name="sequence">5</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_retencions_5" model="account.tax.group">
             <field name="name">Retencions 5%</field>
+            <field name="sequence">6</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
         <record id="tax_group_retencions_10" model="account.tax.group">
             <field name="name">Retencions 10%</field>
+            <field name="sequence">7</field>
+            <field name="country_id" ref="base.ad"/>
         </record>
     </data>
 </odoo>

@@ -1,25 +1,25 @@
-id,name,code,account_type,chart_template_id/id,reconcile
-account_common_101,Fons Social,101,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_102,Capital Social,102,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_108,Accions o participacions pròpies en situacions especials,108,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_109,Accions o participacions pròpies per reducció de capital,109,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_110,Prima d’emissió,110,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_112,Reserva legal,112,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_113,Reserves Estatutàries,113,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_114,Reserves Voluntàries,114,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_118,Aportacions de socis o propietaris,118,liability_non_current,l10n_ad.account_chart_template_common,False
+id,name,code,account_type,chart_template_id/id,reconcile,group_id/id,tag_ids/id
+account_common_101,Fons Social,101,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_101,
+account_common_102,Capital Social,102,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_102,
+account_common_108,Accions o participacions pròpies en situacions especials,108,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_108,
+account_common_109,Accions o participacions pròpies per reducció de capital,109,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_109,
+account_common_110,Prima d'emissió,110,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_110,
+account_common_112,Reserva legal,112,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_112,
+account_common_113,Reserves Estatutàries,113,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_113,
+account_common_114,Reserves Voluntàries,114,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_114,
+account_common_118,Aportacions de socis o propietaris,118,liability_non_current,l10n_ad.account_chart_template_common,False,account_group_118,
 account_common_119,Altres reserves,119,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_131,Donacions i llegats de capital,131,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_141,Provisió per tributs,141,liability_non_current,l10n_ad.account_chart_template_common,True
-account_common_143,"Provisió per desmantellament, retirament o rehabilitació de l’immobilitzat",143,liability_non_current,l10n_ad.account_chart_template_common,True
+account_common_143,"Provisió per desmantellament, retirament o rehabilitació de l'immobilitzat",143,liability_non_current,l10n_ad.account_chart_template_common,True
 account_common_145,Provisió per actuacions mediambientals,145,liability_non_current,l10n_ad.account_chart_template_common,True
 account_common_160,Deutes a llarg termini amb entitats de crèdit vinculades,160,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_161,"Proveïdors d’immobilitzat a llarg termini, parts vinculades",161,liability_non_current,l10n_ad.account_chart_template_common,False
+account_common_161,"Proveïdors d'immobilitzat a llarg termini, parts vinculades",161,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_162,"Creditors per arrendament financer a llarg termini, parts vinculades",162,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_163,Altres deutes a llarg termini amb parts vinculades,163,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_170,Deutes a llarg termini amb entitats de crèdit,170,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_171,Deutes a llarg termini,171,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_173,Proveïdors d’immobilitzat a llarg termini,173,liability_non_current,l10n_ad.account_chart_template_common,False
+account_common_173,Proveïdors d'immobilitzat a llarg termini,173,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_174,Creditors per arrendament financer a llarg termini,174,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_175,Efectes a pagar a llarg termini,175,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_177,Obligacions i bons,177,liability_non_current,l10n_ad.account_chart_template_common,False
@@ -27,8 +27,8 @@ account_common_179,Deutes representats en altres valors negociables,179,liabilit
 account_common_180,Fiances rebudes a llarg termini,180,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_181,Bestretes rebudes per vendes o prestacions de serveis a llarg termini,181,liability_non_current,l10n_ad.account_chart_template_common,False
 account_common_185,Dipòsits rebuts a llarg termini,185,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_194,Capital emès pendent d’inscripció al Registre de Societats,194,liability_non_current,l10n_ad.account_chart_template_common,False
-account_common_200,Despeses d’establiment,200,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_194,Capital emès pendent d'inscripció al Registre de Societats,194,liability_non_current,l10n_ad.account_chart_template_common,False
+account_common_200,Despeses d'establiment,200,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_201,Investigació,201,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_202,Desenvolupament,202,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_203,Concessions administratives,203,asset_fixed,l10n_ad.account_chart_template_common,False
@@ -44,7 +44,7 @@ account_common_213,Maquinària,213,asset_fixed,l10n_ad.account_chart_template_co
 account_common_214,Utillatge,214,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_215,Altres instal·lacions,215,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_216,Mobiliari,216,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_217,Equips per a processos d’informació,217,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_217,Equips per a processos d'informació,217,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_218,Elements de transport,218,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_219,Altre immobilitzat tangible,219,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_220,Inversions en terrenys i béns naturals,220,asset_fixed,l10n_ad.account_chart_template_common,False
@@ -53,7 +53,7 @@ account_common_230,Adaptació de terrenys i béns naturals,230,asset_fixed,l10n_
 account_common_231,Construccions en curs,231,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_232,Instal·lacions tècniques en muntatge,232,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_233,Maquinària en muntatge,233,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_237,Equips per processos d’informació en muntatge,237,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_237,Equips per processos d'informació en muntatge,237,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_238,Altre immobilitzat tangible en curs,238,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_239,Bestretes per immobilitzat tangible,239,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_241,Valors representatius de deute a llarg termini de parts vinculades,241,asset_fixed,l10n_ad.account_chart_template_common,False
@@ -61,16 +61,16 @@ account_common_242,Crèdits a llarg termini a parts vinculades,242,asset_fixed,l
 account_common_250,Inversions financeres a llarg termini en instruments de patrimoni,250,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_251,Valors representatius de deute a llarg termini,251,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_252,Crèdits a llarg termini,252,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_253,Crèdits a llarg termini per alienació d’immobilitzat,253,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_253,Crèdits a llarg termini per alienació d'immobilitzat,253,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_254,Crèdits a llarg termini al personal,254,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_258,Imposicions a llarg termini,258,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_260,Fiances constituïdes a llarg termini,260,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_265,Dipòsits constituïts a llarg termini,265,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_280,Amortització acumulada de l’immobilitzat intangible,280,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_281,Amortització acumulada de l’immobilitzat tangible,281,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_280,Amortització acumulada de l'immobilitzat intangible,280,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_281,Amortització acumulada de l'immobilitzat tangible,281,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_282,Amortització acumulada de les inversions immobiliàries,282,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_290,Deteriorament de valor de l’immobilitzat intangible,290,asset_fixed,l10n_ad.account_chart_template_common,False
-account_common_291,Deteriorament de valor de l’immobilitzat tangible,291,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_290,Deteriorament de valor de l'immobilitzat intangible,290,asset_fixed,l10n_ad.account_chart_template_common,False
+account_common_291,Deteriorament de valor de l'immobilitzat tangible,291,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_292,Deteriorament de valor de les inversions immobiliàries,292,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_293,Deteriorament de valor de participacions a llarg termini en parts vinculades,293,asset_fixed,l10n_ad.account_chart_template_common,False
 account_common_294,Deteriorament de valor de valors representatius de deute a llarg termini de parts vinculades,294,asset_fixed,l10n_ad.account_chart_template_common,False
@@ -88,7 +88,7 @@ account_common_322,Recanvis,322,asset_current,l10n_ad.account_chart_template_com
 account_common_325,Materials diversos,325,asset_current,l10n_ad.account_chart_template_common,False
 account_common_326,Embalatges,326,asset_current,l10n_ad.account_chart_template_common,False
 account_common_327,Envasos,327,asset_current,l10n_ad.account_chart_template_common,False
-account_common_328,Material d’oficina,328,asset_current,l10n_ad.account_chart_template_common,False
+account_common_328,Material d'oficina,328,asset_current,l10n_ad.account_chart_template_common,False
 account_common_330,Productes en curs A,330,asset_current,l10n_ad.account_chart_template_common,False
 account_common_331,Productes en curs B,331,asset_current,l10n_ad.account_chart_template_common,False
 account_common_340,Productes semiacabats A,340,asset_current,l10n_ad.account_chart_template_common,False
@@ -103,7 +103,7 @@ account_common_368,Materials recuperats A,368,asset_current,l10n_ad.account_char
 account_common_369,Materials recuperats B,369,asset_current,l10n_ad.account_chart_template_common,False
 account_common_390,Deteriorament de valor de les mercaderies,390,asset_current,l10n_ad.account_chart_template_common,False
 account_common_391,Deteriorament de valor de les matèries primeres,391,asset_current,l10n_ad.account_chart_template_common,False
-account_common_392,Deteriorament de valor d’altres aprovisionaments,392,asset_current,l10n_ad.account_chart_template_common,False
+account_common_392,Deteriorament de valor d'altres aprovisionaments,392,asset_current,l10n_ad.account_chart_template_common,False
 account_common_393,Deteriorament de valor dels productes en curs,393,asset_current,l10n_ad.account_chart_template_common,False
 account_common_394,Deteriorament de valor dels productes semiacabats,394,asset_current,l10n_ad.account_chart_template_common,False
 account_common_395,Deteriorament de valors dels productes acabats,395,asset_current,l10n_ad.account_chart_template_common,False
@@ -119,7 +119,7 @@ account_common_410,Creditors per prestacions de serveis,410,liability_payable,l1
 account_common_411,"Creditors, efectes comercials a pagar",411,liability_payable,l10n_ad.account_chart_template_common,True
 account_common_430,Clients,430,asset_receivable,l10n_ad.account_chart_template_common,True
 account_common_431,"Clients, efectes comercials a cobrar",431,asset_receivable,l10n_ad.account_chart_template_common,True
-account_common_432,"Clients, operacions de “factoring”",432,asset_receivable,l10n_ad.account_chart_template_common,True
+account_common_432,"Clients, operacions de "factoring"",432,asset_receivable,l10n_ad.account_chart_template_common,True
 account_common_433,"Clients, empreses del grup",433,asset_receivable,l10n_ad.account_chart_template_common,True
 account_common_434,"Clients, empreses associades",434,asset_receivable,l10n_ad.account_chart_template_common,True
 account_common_435,"Clients, altres empreses vinculades",435,asset_receivable,l10n_ad.account_chart_template_common,True
@@ -143,14 +143,14 @@ account_common_493,Deteriorament de valor de crèdits per operacions comercials 
 account_common_499,Provisions per operacions comercials,499,liability_current,l10n_ad.account_chart_template_common,True
 account_common_500,Obligacions i bons a curt termini,500,liability_current,l10n_ad.account_chart_template_common,False
 account_common_505,Deutes representats en altres valors negociables a curt termini,505,liability_current,l10n_ad.account_chart_template_common,False
-account_common_506,Interessos a curt termini d’emprèstits i altres emissions anàlogues,506,liability_current,l10n_ad.account_chart_template_common,False
+account_common_506,Interessos a curt termini d'emprèstits i altres emissions anàlogues,506,liability_current,l10n_ad.account_chart_template_common,False
 account_common_510,Deutes a curt termini amb entitats de crèdit vinculades,510,liability_current,l10n_ad.account_chart_template_common,False
-account_common_511,"Proveïdors d’immobilitzat a curt termini, parts vinculades",511,liability_current,l10n_ad.account_chart_template_common,False
+account_common_511,"Proveïdors d'immobilitzat a curt termini, parts vinculades",511,liability_current,l10n_ad.account_chart_template_common,False
 account_common_512,"Creditors per arrendament financer a curt termini, parts vinculades",512,liability_current,l10n_ad.account_chart_template_common,False
 account_common_513,Altres deutes a curt termini amb parts vinculades,513,liability_current,l10n_ad.account_chart_template_common,False
 account_common_514,Interessos a curt termini de deutes amb parts vinculades,514,liability_current,l10n_ad.account_chart_template_common,False
 account_common_520,Deutes a curt termini amb entitats de crèdit,520,liability_current,l10n_ad.account_chart_template_common,True
-account_common_523,Proveïdors d’immobilitzat a curt termini,523,liability_payable,l10n_ad.account_chart_template_common,True
+account_common_523,Proveïdors d'immobilitzat a curt termini,523,liability_payable,l10n_ad.account_chart_template_common,True
 account_common_524,Creditors per arrendament financer a curt termini,524,liability_current,l10n_ad.account_chart_template_common,False
 account_common_526,Dividend actiu a pagar,526,liability_payable,l10n_ad.account_chart_template_common,True
 account_common_527,Interessos a curt termini de deutes amb entitats de crèdit,527,liability_current,l10n_ad.account_chart_template_common,False
@@ -159,18 +159,18 @@ account_common_529,Provisions a curt termini,529,liability_current,l10n_ad.accou
 account_common_530,Participacions a curt termini en parts vinculades,530,asset_current,l10n_ad.account_chart_template_common,False
 account_common_531,Crèdits i valors representatius de deute a curt termini de parts vinculades,531,asset_current,l10n_ad.account_chart_template_common,False
 account_common_533,Interessos a curt termini de crèdits i valors representatius de deute de parts vinculades,533,asset_current,l10n_ad.account_chart_template_common,False
-account_common_535,Dividend a cobrar d’inversions financeres en parts vinculades,535,asset_current,l10n_ad.account_chart_template_common,False
+account_common_535,Dividend a cobrar d'inversions financeres en parts vinculades,535,asset_current,l10n_ad.account_chart_template_common,False
 account_common_540,Inversions financeres a curt termini en instruments de patrimoni,540,asset_current,l10n_ad.account_chart_template_common,False
 account_common_541,Crèdits i valors representatius de deute a curt termini,541,asset_current,l10n_ad.account_chart_template_common,False
-account_common_543,Crèdits a curt termini per alienació d’immobilitzat,543,asset_current,l10n_ad.account_chart_template_common,False
+account_common_543,Crèdits a curt termini per alienació d'immobilitzat,543,asset_current,l10n_ad.account_chart_template_common,False
 account_common_544,Crèdits a curt termini al personal,544,asset_current,l10n_ad.account_chart_template_common,False
 account_common_545,Dividend a cobrar,545,asset_current,l10n_ad.account_chart_template_common,False
 account_common_546,Interessos a curt termini de crèdits i valors representatius de deutes,546,asset_current,l10n_ad.account_chart_template_common,False
 account_common_548,Imposicions a curt termini,548,asset_current,l10n_ad.account_chart_template_common,False
-account_common_550,Titular de l’explotació,550,asset_current,l10n_ad.account_chart_template_common,False
+account_common_550,Titular de l'explotació,550,asset_current,l10n_ad.account_chart_template_common,False
 account_common_552,Compte corrent amb altres persones i entitats vinculades,552,asset_current,l10n_ad.account_chart_template_common,False
-account_common_554,Compte corrent amb unions temporals d’empreses i comunitats de béns,554,asset_current,l10n_ad.account_chart_template_common,False
-account_common_555,Partides pendents d’aplicació,555,liability_current,l10n_ad.account_chart_template_common,False
+account_common_554,Compte corrent amb unions temporals d'empreses i comunitats de béns,554,asset_current,l10n_ad.account_chart_template_common,False
+account_common_555,Partides pendents d'aplicació,555,liability_current,l10n_ad.account_chart_template_common,False
 account_common_556,Desemborsaments exigits sobre participacions en el patrimoni net,556,liability_current,l10n_ad.account_chart_template_common,False
 account_common_557,Dividend actiu a compte,557,asset_current,l10n_ad.account_chart_template_common,False
 account_common_560,Fiances rebudes a curt termini,560,liability_current,l10n_ad.account_chart_template_common,False
@@ -183,8 +183,8 @@ account_common_570,"Caixa, euros",570,asset_cash,l10n_ad.account_chart_template_
 account_common_571,"Caixa, moneda estrangera",571,asset_cash,l10n_ad.account_chart_template_common,False
 pgc_572_child,"Bancs i institucions de crèdit c/c vista, euros",572,asset_cash,l10n_ad.account_chart_template_common,False
 account_common_573,"Bancs i institucions de crèdit c/c vista, moneda estrangera",573,asset_cash,l10n_ad.account_chart_template_common,False
-account_common_574,"Bancs i institucions de crèdit, comptes d’estalvi, euros",574,asset_cash,l10n_ad.account_chart_template_common,False
-account_common_575,"Bancs i institucions de crèdit, comptes d’estalvi, moneda estrangera",575,asset_cash,l10n_ad.account_chart_template_common,False
+account_common_574,"Bancs i institucions de crèdit, comptes d'estalvi, euros",574,asset_cash,l10n_ad.account_chart_template_common,False
+account_common_575,"Bancs i institucions de crèdit, comptes d'estalvi, moneda estrangera",575,asset_cash,l10n_ad.account_chart_template_common,False
 account_common_576,Inversions a curt termini de gran liquiditat,576,asset_current,l10n_ad.account_chart_template_common,False
 account_common_593,Deteriorament de valor de participacions a curt termini en parts vinculades,593,asset_current,l10n_ad.account_chart_template_common,False
 account_common_594,Deteriorament de valor de valors representatius de deute a curt termini de parts vinculades,594,asset_current,l10n_ad.account_chart_template_common,False
@@ -193,20 +193,20 @@ account_common_597,Deteriorament de valor de valors representatius de deute a cu
 account_common_598,Deteriorament de valor de crèdits a curt termini,598,asset_current,l10n_ad.account_chart_template_common,False
 account_common_600,Compres de mercaderies,600,expense,l10n_ad.account_chart_template_common,False
 account_common_601,Compres de matèries primeres,601,expense,l10n_ad.account_chart_template_common,False
-account_common_602,Compres d’altres aprovisionaments,602,expense,l10n_ad.account_chart_template_common,False
+account_common_602,Compres d'altres aprovisionaments,602,expense,l10n_ad.account_chart_template_common,False
 account_common_606,Descomptes sobre compres per pagament immediat,606,expense,l10n_ad.account_chart_template_common,False
 account_common_607,Treballs realitzats per altres empreses,607,expense,l10n_ad.account_chart_template_common,False
 account_common_608,Devolucions de compres i operacions similars,608,expense,l10n_ad.account_chart_template_common,False
 account_common_609,Ràpels per compres,609,expense,l10n_ad.account_chart_template_common,False
-account_common_610,Variació d’existències de mercaderies,610,expense,l10n_ad.account_chart_template_common,False
-account_common_611,Variació d’existències de matèries primeres,611,expense,l10n_ad.account_chart_template_common,False
-account_common_612,Variació d’existències d’altres aprovisionaments,612,expense,l10n_ad.account_chart_template_common,False
-account_common_620,Despeses en investigació i desenvolupament de l’exercici,620,expense,l10n_ad.account_chart_template_common,False
+account_common_610,Variació d'existències de mercaderies,610,expense,l10n_ad.account_chart_template_common,False
+account_common_611,Variació d'existències de matèries primeres,611,expense,l10n_ad.account_chart_template_common,False
+account_common_612,Variació d'existències d'altres aprovisionaments,612,expense,l10n_ad.account_chart_template_common,False
+account_common_620,Despeses en investigació i desenvolupament de l'exercici,620,expense,l10n_ad.account_chart_template_common,False
 account_common_621,Arrendaments i cànons,621,expense,l10n_ad.account_chart_template_common,False
 account_common_622,Reparacions i conservació,622,expense,l10n_ad.account_chart_template_common,False
 account_common_623,Serveis de professionals independents,623,expense,l10n_ad.account_chart_template_common,False
 account_common_624,Transports,624,expense,l10n_ad.account_chart_template_common,False
-account_common_625,Primes d’assegurances,625,expense,l10n_ad.account_chart_template_common,False
+account_common_625,Primes d'assegurances,625,expense,l10n_ad.account_chart_template_common,False
 account_common_626,Serveis bancaris i similars,626,expense,l10n_ad.account_chart_template_common,False
 account_common_627,"Publicitat, propaganda i relacions públiques",627,expense,l10n_ad.account_chart_template_common,False
 account_common_628,Subministraments,628,expense,l10n_ad.account_chart_template_common,False
@@ -214,28 +214,28 @@ account_common_629,Altres serveis,629,expense,l10n_ad.account_chart_template_com
 account_common_631,Altres tributs,631,expense,l10n_ad.account_chart_template_common,False
 account_common_640,Sous i salaris,640,expense,l10n_ad.account_chart_template_common,False
 account_common_641,Indemnitzacions,641,expense,l10n_ad.account_chart_template_common,False
-account_common_642,Caixa Andorrana de Seguretat Social a càrrec de l’empresari,642,expense,l10n_ad.account_chart_template_common,False
+account_common_642,Caixa Andorrana de Seguretat Social a càrrec de l'empresari,642,expense,l10n_ad.account_chart_template_common,False
 account_common_649,Altres despeses socials,649,expense,l10n_ad.account_chart_template_common,False
 account_common_660,Despeses financeres per actualització de provisions,660,expense,l10n_ad.account_chart_template_common,False
-account_common_661,Interessos d’obligacions i bons,661,expense,l10n_ad.account_chart_template_common,False
+account_common_661,Interessos d'obligacions i bons,661,expense,l10n_ad.account_chart_template_common,False
 account_common_662,Interessos de deutes,662,expense,l10n_ad.account_chart_template_common,False
-account_common_664,Despeses per dividends d’accions o participacions considerades passius financers,664,expense,l10n_ad.account_chart_template_common,False
-account_common_665,Interessos per descompte d’efectes i operacions de “factoring”,665,expense,l10n_ad.account_chart_template_common,False
+account_common_664,Despeses per dividends d'accions o participacions considerades passius financers,664,expense,l10n_ad.account_chart_template_common,False
+account_common_665,Interessos per descompte d'efectes i operacions de "factoring",665,expense,l10n_ad.account_chart_template_common,False
 account_common_666,Pèrdues en participacions i valors representatius de deute,666,expense,l10n_ad.account_chart_template_common,False
 account_common_667,Pèrdues de crèdits no comercials,667,expense,l10n_ad.account_chart_template_common,False
 account_common_668,Diferències negatives de canvi,668,expense,l10n_ad.account_chart_template_common,False
 account_common_669,Altres despeses financeres,669,expense,l10n_ad.account_chart_template_common,False
-account_common_670,Pèrdues procedents de l’immobilitzat intangible,670,expense,l10n_ad.account_chart_template_common,False
+account_common_670,Pèrdues procedents de l'immobilitzat intangible,670,expense,l10n_ad.account_chart_template_common,False
 account_common_672,Pèrdues procedents de les inversions immobiliàries,672,expense,l10n_ad.account_chart_template_common,False
 account_common_673,Pèrdues procedents de participacions a llarg termini en parts vinculades,673,expense,l10n_ad.account_chart_template_common,False
 account_common_675,Pèrdues per operacions amb obligacions pròpies,675,expense,l10n_ad.account_chart_template_common,False
 account_common_678,Despeses excepcionals,678,expense,l10n_ad.account_chart_template_common,False
-account_common_680,Amortització de l’immobilitzat intangible,680,expense,l10n_ad.account_chart_template_common,False
-account_common_681,Amortització de l’immobilitzat tangible,681,expense,l10n_ad.account_chart_template_common,False
+account_common_680,Amortització de l'immobilitzat intangible,680,expense,l10n_ad.account_chart_template_common,False
+account_common_681,Amortització de l'immobilitzat tangible,681,expense,l10n_ad.account_chart_template_common,False
 account_common_682,Amortització de les inversions immobiliàries,682,expense,l10n_ad.account_chart_template_common,False
-account_common_690,Pèrdues per deteriorament de l’immobilitzat intangible,690,expense,l10n_ad.account_chart_template_common,False
+account_common_690,Pèrdues per deteriorament de l'immobilitzat intangible,690,expense,l10n_ad.account_chart_template_common,False
 account_common_692,Pèrdues per deteriorament de les inversions immobiliàries,692,expense,l10n_ad.account_chart_template_common,False
-account_common_693,Pèrdues per deteriorament d’existències,693,expense,l10n_ad.account_chart_template_common,False
+account_common_693,Pèrdues per deteriorament d'existències,693,expense,l10n_ad.account_chart_template_common,False
 account_common_695,Dotació a la provisió per operacions comercials,695,expense,l10n_ad.account_chart_template_common,False
 account_common_696,Pèrdues per deteriorament de participacions i valors representatius de deute a llarg termini,696,expense,l10n_ad.account_chart_template_common,False
 account_common_697,Pèrdues per deteriorament de crèdits a llarg termini,697,expense,l10n_ad.account_chart_template_common,False
@@ -245,22 +245,22 @@ account_common_700,Vendes de mercaderies,700,income,l10n_ad.account_chart_templa
 account_common_701,Vendes de productes acabats,701,income,l10n_ad.account_chart_template_common,False
 account_common_702,Vendes de productes semiacabats,702,income,l10n_ad.account_chart_template_common,False
 account_common_703,Vendes de subproductes i residus,703,income,l10n_ad.account_chart_template_common,False
-account_common_704,Vendes d’envasos i embalatges,704,income,l10n_ad.account_chart_template_common,False
+account_common_704,Vendes d'envasos i embalatges,704,income,l10n_ad.account_chart_template_common,False
 account_common_705,Prestació de serveis,705,income,l10n_ad.account_chart_template_common,False
 account_common_706,Descompte sobre vendes per pagament immediat,706,income,l10n_ad.account_chart_template_common,False
 account_common_708,Devolucions de vendes i operacions similars,708,income,l10n_ad.account_chart_template_common,False
 account_common_709,Ràpels sobre vendes,709,income,l10n_ad.account_chart_template_common,False
-account_common_710,Variació d’existències de productes en curs,710,income,l10n_ad.account_chart_template_common,False
-account_common_711,Variació d’existències de productes semiacabats,711,income,l10n_ad.account_chart_template_common,False
-account_common_712,Variació d’existències de productes acabats,712,income,l10n_ad.account_chart_template_common,False
-account_common_713,"Variació d’existències de subproductes, residus i materials recuperats",713,income,l10n_ad.account_chart_template_common,False
-account_common_730,Treballs realitzats per a l’immobilitzat intangible,730,income,l10n_ad.account_chart_template_common,False
-account_common_731,Treballs realitzats per a l’immobilitzat tangible,731,income,l10n_ad.account_chart_template_common,False
+account_common_710,Variació d'existències de productes en curs,710,income,l10n_ad.account_chart_template_common,False
+account_common_711,Variació d'existències de productes semiacabats,711,income,l10n_ad.account_chart_template_common,False
+account_common_712,Variació d'existències de productes acabats,712,income,l10n_ad.account_chart_template_common,False
+account_common_713,"Variació d'existències de subproductes, residus i materials recuperats",713,income,l10n_ad.account_chart_template_common,False
+account_common_730,Treballs realitzats per a l'immobilitzat intangible,730,income,l10n_ad.account_chart_template_common,False
+account_common_731,Treballs realitzats per a l'immobilitzat tangible,731,income,l10n_ad.account_chart_template_common,False
 account_common_732,Treballs realitzats en inversions immobiliàries,732,income,l10n_ad.account_chart_template_common,False
-account_common_733,Treballs realitzats per a l’immobilitzat tangible en curs,733,income,l10n_ad.account_chart_template_common,False
-account_common_740,"Subvencions, donacions i llegats a l’explotació",740,income,l10n_ad.account_chart_template_common,False
-account_common_746,"Subvencions, donacions i llegats de capital transferits al resultat de l’exercici",746,income,l10n_ad.account_chart_template_common,False
-account_common_747,"Altres subvencions, donacions i llegats transferits al resultat de l’exercici",747,income,l10n_ad.account_chart_template_common,False
+account_common_733,Treballs realitzats per a l'immobilitzat tangible en curs,733,income,l10n_ad.account_chart_template_common,False
+account_common_740,"Subvencions, donacions i llegats a l'explotació",740,income,l10n_ad.account_chart_template_common,False
+account_common_746,"Subvencions, donacions i llegats de capital transferits al resultat de l'exercici",746,income,l10n_ad.account_chart_template_common,False
+account_common_747,"Altres subvencions, donacions i llegats transferits al resultat de l'exercici",747,income,l10n_ad.account_chart_template_common,False
 account_common_752,Ingressos per arrendaments,752,income,l10n_ad.account_chart_template_common,False
 account_common_753,Ingressos de propietat industrial cedida en explotació,753,income,l10n_ad.account_chart_template_common,False
 account_common_754,Ingressos per comissions,754,income,l10n_ad.account_chart_template_common,False
@@ -272,15 +272,15 @@ account_common_762,Interessos de crèdits,762,income,l10n_ad.account_chart_templ
 account_common_766,Beneficis en participacions i valors representatius de deute,766,income,l10n_ad.account_chart_template_common,False
 account_common_768,Diferències positives de canvi,768,income_other,l10n_ad.account_chart_template_common,False
 account_common_769,Altres ingressos financers,769,income,l10n_ad.account_chart_template_common,False
-account_common_770,Beneficis procedents de l’immobilitzat intangible,770,income,l10n_ad.account_chart_template_common,False
-account_common_771,Beneficis procedents de l’immobilitzat tangible,771,income,l10n_ad.account_chart_template_common,False
+account_common_770,Beneficis procedents de l'immobilitzat intangible,770,income,l10n_ad.account_chart_template_common,False
+account_common_771,Beneficis procedents de l'immobilitzat tangible,771,income,l10n_ad.account_chart_template_common,False
 account_common_772,Beneficis procedents de les inversions immobiliàries,772,income,l10n_ad.account_chart_template_common,False
 account_common_773,Beneficis procedents de participacions a llarg termini en parts vinculades,773,income,l10n_ad.account_chart_template_common,False
 account_common_775,Beneficis per operacions amb obligacions pròpies,775,income,l10n_ad.account_chart_template_common,False
 account_common_778,Ingressos excepcionals,778,income,l10n_ad.account_chart_template_common,False
-account_common_790,Reversió del deteriorament de l’immobilitzat intangible,790,income,l10n_ad.account_chart_template_common,False
+account_common_790,Reversió del deteriorament de l'immobilitzat intangible,790,income,l10n_ad.account_chart_template_common,False
 account_common_792,Reversió del deteriorament de les inversions immobiliàries,792,income,l10n_ad.account_chart_template_common,False
-account_common_793,Reversió del deteriorament d’existències,793,income,l10n_ad.account_chart_template_common,False
+account_common_793,Reversió del deteriorament d'existències,793,income,l10n_ad.account_chart_template_common,False
 account_common_796,Reversió del deteriorament de participacions i valors representatius de deute a llarg termini,796,income,l10n_ad.account_chart_template_common,False
 account_common_797,Reversió del deteriorament de crèdits a llarg termini,797,income,l10n_ad.account_chart_template_common,False
 account_common_798,Reversió del deteriorament de participacions i valors representatius de deute a curt termini,798,income,l10n_ad.account_chart_template_common,False

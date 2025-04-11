@@ -1,0 +1,10 @@
+id,sequence,name,name@ca,auto_apply,vat_required,country_id,country_group_id,tax_ids/tax_src_id,tax_ids/tax_dest_id,account_ids/account_src_id,account_ids/account_dest_id
+fp_general,1,Règim General,Règim General,1,1,base.ad,,,,
+fp_retencions5,2,Retenció IRPF 5%,Retenció IRPF 5%,0,0,base.ad,,account_tax_template_igi_45,account_tax_template_retencions_5,,
+fp_retencions10,3,Retenció IRPF 10%,Retenció IRPF 10%,0,0,base.ad,,account_tax_template_igi_45,account_tax_template_retencions_10,,
+fp_retencions10,3,Retenció IRPF 10%,Retenció IRPF 10%,0,0,base.ad,,account_tax_template_igi_25,account_tax_template_retencions_10,,
+fp_retencions10,3,Retenció IRPF 10%,Retenció IRPF 10%,0,0,base.ad,,account_tax_template_igi_1,account_tax_template_retencions_10,,
+fp_retencions10,3,Retenció IRPF 10%,Retenció IRPF 10%,0,0,base.ad,,account_tax_template_igi_95,account_tax_template_retencions_10,,
+fp_retencions5,2,Retenció IRPF 5%,Retenció IRPF 5%,0,0,base.ad,,account_tax_template_igi_25,account_tax_template_retencions_5,,
+fp_retencions5,2,Retenció IRPF 5%,Retenció IRPF 5%,0,0,base.ad,,account_tax_template_igi_1,account_tax_template_retencions_5,,
+fp_retencions5,2,Retenció IRPF 5%,Retenció IRPF 5%,0,0,base.ad,,account_tax_template_igi_95,account_tax_template_retencions_5,, 
